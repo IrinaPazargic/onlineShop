@@ -7,8 +7,9 @@
 				<div class="col-sm-8">
 					<div class="shop-menu pull-right">
 						<ul class="nav navbar-nav">
-							<li><a href="cart.php"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-							<li><a href="login.php"><i class="fa fa-lock"></i> Login</a></li>
+							<li><a href="login.php">Login</a></li>
+							<li><a href="cart.php">Contact</a></li>
+							<li><a href="cart.php"><i class="fa fa-shopping-cart"></i></a></li>
 						</ul>
 					</div>
 				</div>
