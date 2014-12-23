@@ -1,77 +1,62 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Login | E-Shopper</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/price-range.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-<!-- 	// <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	// <script src="scripts/events.js"></script> -->
-
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
-
-<body>
-	<?php include 'header.php'; ?>
-	<section id="form"><!--form-->
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4 col-sm-offset-1">
-					<div class="login-form"><!--login form-->
-						<h2>Login to your account</h2>
-						<form name = "login-form" action="scripts/login.php" method ="post">
-							<input type="text" placeholder="Email Address" name= "username" id="username"/>
-							<input type="password" placeholder="Password" name ="password" id="password" />
-							<span>
-								<input type="checkbox" class="checkbox"> 
-								Keep me signed in
-							</span>
-							<button type="submit" id="login-btn" class="btn btn-default">Login</button>
-						</form>
-					</div><!--/login form-->
-				</div>
-				<div class="col-sm-1">
-					<h2 class="or">OR</h2>
-				</div>
-				<div class="col-sm-4">
-					<div class="signup-form"><!--sign up form-->
-						<h2>New User Signup!</h2>
-						<form action="#">
-							<input type="text" placeholder="Name"/>
-							<input type="email" placeholder="Email Address"/>
-							<input type="password" placeholder="Password"/>
-							<button type="submit" class="btn btn-default">Signup</button>
-						</form>
-					</div><!--/sign up form-->
-				</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">Log in / Create account</h4>
 			</div>
+			<div class="modal-body row">
+				<div class="login-form col-sm-5">
+					<h2>Existent Customer</h2>
+					<form class="block-validate">
+						<div class="form-group">
+							<input type="email" placeholder="Email Address" name= "email" id="email"  class="form-control" required=""/>
+						</div>
+						<div class="form-group">
+							<input type="password" placeholder="Password" name ="password" id="password" class="form-control" required=""/>
+						</div>
+						<span>
+							<input type="checkbox" class="checkbox"> 
+							Keep me signed in
+						</span>
+						<div class="form-actions">
+							<button type="submit" id="login-btn" class="btn btn-default">Login</button>
+						</div>
+					</form>
+				</div>
+				<div class = "signup-content col-sm-7">
+					<div class = "message-to-customer">
+						<h2>New Customer</h2>
+						<p> If you still don't have a irina.com account, use this option to access the registration form.</p>
+						<p>By giving us your details, pur`chasing in Irina.com will be a faster and enjoyable experience. </p>
+						<button  id="create-account" type="submit" class="btn btn-default">Create account</button>
+					</div>
+					<div class ="signup-form hidden">
+						<h2>New Customer</h2>
+						<form  class="block-validate">
+							<div class="form-group">
+								<input type="text" placeholder="First Name"/ name="firstname" id="firstname" class="form-control" required="">
+							</div>
+							<div class="form-group">
+								<input type="text" placeholder="Last Name" name="lastname" id="lastname" class="form-control" required=""/>
+							</div>
+							<div class="form-group">
+								<input type="email" placeholder='Email Address' name="email1" id="email1"  class="form-control" required=""/>
+							</div>
+							<div class="form-group">
+							<input type="text" placeholder='Address' name="address" id ="address" class="form-control" required=""/>
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Password" name="password1" id ="password1" class="form-control"  required=""/>
+							</div>
+							<input type="password" placeholder="Confirm Password" name="password2" id ="password2" class="form-control" required=""/>
+							<div class="form-actions">
+								<button type="submit" class="btn btn-default">Signup</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div><!--/sign up form-->
 		</div>
-	</section><!--/form-->
-	
-	<?php include 'footer.php'; ?>
-
-    <script src="js/jquery.js"></script>
-	<script src="js/price-range.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-   <script src="js/main.js"></script>
-</body>
-</html>
+	</div>
+</div>

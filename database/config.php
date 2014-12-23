@@ -5,7 +5,7 @@ class DbConfig
 	public static $host = "localhost";
 	public static $user = "root";
 	public static $pass = "root";
-	public static $db = "onlineshop";
+	public static $db = "online_shop";
 }
 $host=DbConfig::$host;
 $user=DbConfig::$user;

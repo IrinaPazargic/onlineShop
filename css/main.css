@@ -1422,6 +1422,14 @@ h2.title {
 *******login page CSS******
 **************************/
 
+.has-error .help-block, .has-error .control-label {
+    color: #b94a48;
+    font-size:12px;
+}
+.has-error .form-control {
+    border-color: #b94a48;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
 #form {
   display: block;
   margin-bottom: 185px;
