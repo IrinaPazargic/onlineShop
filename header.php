@@ -7,7 +7,7 @@
 				<div class="col-sm-8">
 					<div class="shop-menu pull-right">
 						<ul class="nav navbar-nav">
-							<li><a href="#" data-target="#myModal" data-toggle="modal">Login</a></li>
+							<li><a class="nav-item" href="#" data-target="#myModal" data-toggle="modal">Login</a></li>
 							<li><a href="contact-us.php">Contact</a></li>
 							<li><a href="cart.php"><i class="fa fa-shopping-cart"></i></a></li>
 						</ul>
@@ -50,26 +50,28 @@
 						<button type="submit" id="login-btn" class="btn btn-default">Login</button>
 					</form>
 				</div>
-				<div class="col-sm-7">
-					<h2>New Customer</h2>
-					<p> If you still don't have a irina.com account, use this option to access the registration form.</p>
-					<p>By giving us your details, purchasing in Irina.com will be a faster and enjoyable experience. </p>
-					<button  id = "create-account" type="submit" class="btn btn-default">Create account</button>
+				<div class = "signup-content col-sm-7">
+					<div class = "message-to-customer">
+						<h2>New Customer</h2>
+						<p> If you still don't have a irina.com account, use this option to access the registration form.</p>
+						<p>By giving us your details, pur`chasing in Irina.com will be a faster and enjoyable experience. </p>
+						<button  id = "create-account" type="submit" class="btn btn-default">Create account</button>
+					</div>
+					<div class ="signup-form hidden">
+						<form action="#">
+							<input type="text" placeholder="Name"/>
+							<input type="email" placeholder='Email Address'/>
+							<input type="password" placeholder="Password"/>
+							<button type="submit" class="btn btn-default">Signup</button>
+						</form>
+					</div>
 				</div>
-				<div class="signup-form col-sm-7 hidden" ><!--sign up form-->
-					<form action="#">
-						<input type="text" placeholder="Name"/>
-						<input type="email" placeholder="Email Address"/>
-						<input type="password" placeholder="Password"/>
-						<button type="submit" class="btn btn-default">Signup</button>
-					</form>
-				</div><!--/sign up form-->
-			</div>
-			<div class="modal-footer">
-				<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-				<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-			</div> 
+			</div><!--/sign up form-->
 		</div>
+		<!-- <div class="modal-footer"> -->
+		<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+		<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+		<!-- </div>  -->
 	</div>
 </div>
 

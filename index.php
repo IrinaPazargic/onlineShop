@@ -172,6 +172,6 @@
 	<script src="js/price-range.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>	
-    <script src ="js/autenticate.js"></script>
+    <script src ="js/autentificate.js"></script>
 </body>
 </html>

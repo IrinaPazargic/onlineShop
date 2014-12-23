@@ -3,7 +3,7 @@
 		<div class="panel-heading">
 			<h4 class="panel-title">
 				<a data-toggle="collapse" data-parent="#accordian" href="#mens">
-					<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+					<span class="badge pull-right"><i class="fa fa-angle-left"></i></span>
 					Mens
 				</a>
 			</h4>
@@ -11,7 +11,7 @@
 		<div id="mens" class="panel-collapse collapse">
 			<div class="panel-body">
 				<ul>
-					<li><a href="#">Fendi</a></li>
+					<li><a class = "active"href="#">Fendi</a></li>
 					<li><a href="#">Guess</a></li>
 					<li><a href="#">Valentino</a></li>
 					<li><a href="#">Dior</a></li>
@@ -30,7 +30,7 @@
 		<div class="panel-heading">
 			<h4 class="panel-title">
 				<a data-toggle="collapse" data-parent="#accordian" href="#womens">
-					<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+					<span class="badge pull-right"><i class="fa fa-angle-left"></i></span>
 					Womens
 				</a>
 			</h4>

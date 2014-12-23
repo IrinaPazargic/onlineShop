@@ -1437,6 +1437,10 @@ h2.title {
 
 }
 
+.message-to-customer p{
+  font-size:13px;
+}
+
 #create-account {
   background: none repeat scroll 0 0 #000;
     border: medium none;
@@ -1463,8 +1467,8 @@ h2.title {
 }
 
 .login-form form input, .signup-form form input {
-  background: #F0F0E9;
-  border: medium none;
+/*  background: #F0F0E9;
+  border: medium none;*/
   color: #696763;
   display: block;
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
