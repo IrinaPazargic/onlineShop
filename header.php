@@ -8,7 +8,7 @@
 					<div class="shop-menu pull-right">
 						<ul class="nav navbar-nav">
 							<li><a href="login.php">Login</a></li>
-							<li><a href="cart.php">Contact</a></li>
+							<li><a href="contact-us.php">Contact</a></li>
 							<li><a href="cart.php"><i class="fa fa-shopping-cart"></i></a></li>
 						</ul>
 					</div>

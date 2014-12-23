@@ -471,7 +471,7 @@ ul.sub-menu {
 }
 
 .footer-widget .container {
-  border-top: 1px solid #000;
+  border-top: 1px solid #f5f5ed;
   padding-top: 15px;
 }
 
@@ -546,15 +546,15 @@ ul.sub-menu {
 }
 
 .footer-bottom {
-  background: #D6D6D0;
-  padding-top: 10px;
+
 }
 
 .footer-bottom p {
   color: #363432;
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
-  margin-left: 15px;
+  margin-right: 15px;
+  font-size:13px;
 }
 
 .footer-bottom p span a {
@@ -1225,7 +1225,7 @@ h2.title {
 .product-information h2 {
   color: #363432;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0;
 }
 
@@ -1245,7 +1245,7 @@ h2.title {
   color: #000;
   float: left;
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   margin-right: 20px;
   margin-top: 0px;
