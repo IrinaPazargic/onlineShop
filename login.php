@@ -8,7 +8,7 @@
 			<div class="modal-body row">
 				<div class="login-form col-sm-5">
 					<h2>Existent Customer</h2>
-					<form class="block-validate">
+					<form id="login-form" action="scripts/login.php" method="post" class="block-validate">
 						<div class="form-group">
 							<input type="email" placeholder="Email Address" name= "email" id="email"  class="form-control" required=""/>
 						</div>

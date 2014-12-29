@@ -187,7 +187,7 @@ a#scrollUp i{
 
 
 .shop-menu ul li {
-	display:inline-block;
+	/*display:inline-block;*/
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -2561,5 +2561,9 @@ h2.title {
   display: block;
   margin:0 auto;
   width:145px;
+}
+
+.dropdown-menu li {
+  display:block;
 }
 
