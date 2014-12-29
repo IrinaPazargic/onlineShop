@@ -1,3 +1,4 @@
+<?php require_once('database/config.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,5 +90,14 @@
 	<script src="js/price-range.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="plugins/validationengine/js/jquery.validationEngine.js"></script>
+    <script src="plugins/validationengine/js/languages/jquery.validationEngine-en.js"></script>
+    <script src="plugins/jquery-validation-1.11.1/dist/jquery.validate.min.js"></script>
+    <script src="js/validationInit.js"></script>
+        <script>
+        $(function () { formValidation(); });
+        </script>
+     <!--END PAGE LEVEL SCRIPTS -->
 </body>
 </html>

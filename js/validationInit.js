@@ -46,7 +46,7 @@ $('form.block-validate').validate({
 });
 
 $("#login-form").submit(function (e) {
-    // e.preventDefault();
+    e.preventDefault();
     var valid = $("#login-form").valid();
     console.log("Is form valid? " + valid);
     if (valid) {
@@ -67,7 +67,7 @@ function login() {
         data: "email=" + email + "&password=" + password,
         success: function (result) {
             if (result == 1) {
-                window.location.href = "index.php";
+                top.location.href = "index.php";
             } else if (result == 0){
                 insertAfter("#password");
             }

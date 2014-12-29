@@ -1,8 +1,8 @@
 <?php
 	require_once('database/config.php');
-	$anchor = "<a class='dropdown-toggle' href='' data-toggle='dropdown'><i class='icon-user'></i>Account<i class='icon-chevron-down'></i></a>";
-	$dropdown = $anchor."<ul class='dropdown-menu dropdown-user'><li><a href='#'><i class='icon-user'></i>User Profile</a></li><li class='divider'></li>".
-				"<li><a id='logout-btn' href='logout.php'>Logout</a></ul>";
+	$anchor = "<a class='dropdown-toggle' href='' data-toggle='dropdown'><i class='fa fa-user'></i><span class='caret'></span></a>";
+	$dropdown = $anchor."<ul class='dropdown-menu dropdown-user'><li><a href='#'><i class='fa fa-user'></i>User Profile</a></li><li class='divider'></li>".
+				"<li><a id='logout-btn' href='logout.php'><span class='glyphicon glyphicon-log-out'></span> Logout</a></ul>";
 	$link = "<li class='dropdown'>".$dropdown."</li>";
 	if(!isset($_SESSION['username'])){
 		$link = "<li><a class='nav-item' href='#' data-target='#myModal' data-toggle='modal'>Login</a></li>";

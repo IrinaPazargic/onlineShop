@@ -2567,3 +2567,7 @@ h2.title {
   display:block;
 }
 
+.glyphicon-log-out {
+  content:"\e163";
+}
+
